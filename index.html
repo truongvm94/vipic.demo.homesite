@@ -881,7 +881,7 @@
       // Kích hoạt hiệu ứng khi phần tử vào viewport
       $('.element-to-animate').waypoint(function() {
           $(this.element)
-          .addClass('animate__animated animate__fadeInUp animate__bounce animate__delay-2s')
+          .addClass('animate__animated animate__fadeInUp animate__bounce animate__delay-1s')
           .css({'opacity' : '1'});
 
       }, {
@@ -890,7 +890,7 @@
 
       $('.element-to-animate-2').waypoint(function() {
           $(this.element)
-          .addClass('animate__animated animate__fadeInLeft animate__delay-3s')
+          .addClass('animate__animated animate__fadeInLeft animate__delay-1s')
           .css({'opacity' : '1'});
 
       }, {
@@ -899,7 +899,7 @@
       
       $('.element-to-animate-3').waypoint(function() {
           $(this.element)
-          .addClass('animate__animated animate__fadeInRight animate__delay-3s')
+          .addClass('animate__animated animate__fadeInRight animate__delay-1s')
           .css({'opacity' : '1'});
 
       }, {
@@ -907,17 +907,23 @@
       });
 
 
-    // var $megamenu = $('.mega-menu-container');
+    var $megamenu = $('.mega-menu-container');
 
-    // $('.main-menu ul.menu > li.parent').hover(function() {
-    //     $megamenu.css({
-    //         'transform': 'perspective(600px) rotateX(0deg)'
-    //     });
-    // }, function() {
-    //     $megamenu.css({
-    //         'transform': 'perspective(600px) rotateX(-90deg)'
-    //     });
-    // });
+    $('.main-menu ul.menu > li.parent').hover(function() {
+        $megamenu.css({
+            'transform': 'perspective(600px) rotateX(0deg)',
+            'opacity': '1',
+            'display': 'block',
+            'overflow': 'visible',
+            'max-height': '800px',
+            'max-width': '100%'
+        });
+    }, function() {
+      console.log("un");
+        $megamenu.css({
+            'transform': 'perspective(600px) rotateX(-90deg)'
+        });
+    });
 });
 
   </script>
