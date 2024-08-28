@@ -127,7 +127,7 @@ a{
     opacity: 0;
     transform-origin: top;
 
-    background: #fff;
+    background: rgba(255,255,255,0.9);
     overflow: hidden;
     max-height: 0px;
     max-width: 0px;
@@ -229,14 +229,14 @@ a{
     transition: transform 0.5s ease, opacity 0.2s ease, max-height 0s step-end, max-width 0s step-end, padding 0s step-end; */
 }
 
-/* .main-menu ul.menu > li:hover > ul{
+.main-menu ul.menu > li:hover > ul{
     display: block;
     position: absolute;
     background: rgba(255,255,255,0.9);
     width: 300px;
     box-shadow: 1px 2px 3px #333;
     margin-left: -15px;
-} */
+}
 
 .main-menu ul.menu > li > ul li{
     border-bottom: 1px solid #ccc;
@@ -1184,11 +1184,11 @@ div.pagination ul li span{
     border-bottom: 1px solid #ccc;
     }
     
-/* 
+
     .main-menu ul.menu > li:hover > a{
     z-index:3000;
     }
- */
+
     .main-menu ul.menu > li {
         float: none;
         border-bottom: 1px solid #ccc;

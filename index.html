@@ -130,7 +130,7 @@
           </li>
           <li class="parent">
             <a href="vi.html#">
-              Các khu công nghiệp
+              Các dự án
             </a>
             <ul>
               <li><a href="vi/kcn-so-3-nghi-son/kcn-so-3-nghi-son.html" target="_self"> KCN số 3 Nghi Sơn</a></li>
@@ -180,7 +180,7 @@
 
     <div class="home-content-row home-content-3 element-to-animate">
       <div class="container">
-        <h2 class="title-home-content-1" style="text-align: center;">LĨNH VỰC HOẠT ĐỘNG
+        <h2 class="title-home-content-1" style="text-align: center;">BẤT ĐỘNG SẢN CÔNG NGHIỆP
 
         </h2>
 
@@ -189,7 +189,7 @@
           <div class="list-home-content-item" style="width: 25%;">
             <div><a href="vi.html#"><img src="themes/nghison/images/linhvuc/khu_cong_nghiep.jpg"
                   style="min-height: 200px;"></a>
-              <h3 style="text-align: center;"><a href="vi.html#">KHU CÔNG NGHIỆP</a></h3>
+              <h3 style="text-align: center;"><a href="vi.html#">BĐS DÂN DỤNG</a></h3>
             </div>
           </div>
 
@@ -197,7 +197,7 @@
             <div><a href="vi.html#"><img src="themes/nghison/images/linhvuc/dien_nang.png"
                   style="min-height: 200px;"></a>
 
-              <h3 style="text-align: center;"><a href="vi.html#">ĐIỆN NĂNG</a></h3>
+              <h3 style="text-align: center;"><a href="vi.html#">LOGISTIC</a></h3>
 
             </div>
           </div>
@@ -205,7 +205,7 @@
           <div class="list-home-content-item" style="width: 25%;">
             <div><a href="vi.html#"><img src="themes/nghison/images/linhvuc/nha_o.jpg" style="min-height: 200px;"></a>
 
-              <h3 style="text-align: center;"><a href="vi.html#">NHÀ Ở ĐÔ THỊ</a></h3>
+              <h3 style="text-align: center;"><a href="vi.html#">KINH DOANH HẠ TẦNG</a></h3>
 
             </div>
           </div>
@@ -214,7 +214,7 @@
             <div><a href="vi.html#"><img src="themes/nghison/images/linhvuc/thi_cong.jpg"
                   style="min-height: 200px;"></a>
 
-              <h3 style="text-align: center;"><a href="vi.html#">THI CÔNG LẮP ĐẶT</a></h3>
+              <h3 style="text-align: center;"><a href="vi.html#">ĐIỆN NƯỚC</a></h3>
 
             </div>
           </div>
@@ -910,7 +910,7 @@
     var $megamenu = $('.mega-menu-container');
 
     $('.main-menu ul.menu > li.parent').hover(function() {
-        $megamenu.css({
+      $(this).has('.mega-menu-container').children('.mega-menu-container').css({
             'transform': 'perspective(600px) rotateX(0deg)',
             'opacity': '1',
             'display': 'block',
@@ -918,9 +918,17 @@
             'max-height': '800px',
             'max-width': '100%'
         });
+        // $megamenu.css({
+        //     'transform': 'perspective(600px) rotateX(0deg)',
+        //     'opacity': '1',
+        //     'display': 'block',
+        //     'overflow': 'visible',
+        //     'max-height': '800px',
+        //     'max-width': '100%'
+        // });
     }, function() {
       console.log("un");
-        $megamenu.css({
+      $(this).has('.mega-menu-container').children('.mega-menu-container').css({
             'transform': 'perspective(600px) rotateX(-90deg)'
         });
     });
