@@ -817,6 +817,26 @@ a{
 .article-content h2{
 
 }
+
+/* region Tab */
+.tab-wrap {
+    display: flex;
+}
+.tab-item{
+    display: none;
+}
+ul.tab-nav > li {
+    list-style-type: none;
+}
+.article-content .tab-nav {
+    width: 20%;
+}
+
+.article-content .tab-content {
+    width: 80%;
+}
+/* endregion Tab */
+
 .contact-left{
     float: left;
     width: 450px;
