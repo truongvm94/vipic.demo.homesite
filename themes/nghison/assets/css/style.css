@@ -1624,8 +1624,8 @@ div.pagination ul li span{
     top: 0;
     left: 0;
     width: 100% !important;
-    height: 100% !importantheight: 200px;
-  object-fit: cover;;
+    height: 100% !important;
+  object-fit: cover;
 }
 .list-home--image {
     height: 200px;
@@ -1645,4 +1645,22 @@ div.pagination ul li span{
   justify-content: space-between;
   font-size: 60px;
   transform: translate(-50%);
+}
+
+.col-4 {
+    float: left;
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    padding: 0 15px;
+    width: 100%; 
+}
+.row {
+    margin-right: -15px;   
+    margin-left: -15px;   
+    display: flex;
+}
+.wrap-content{
+    padding: 15px;
+    border: 1px solid #e386e5;
+    border-radius: 10px;
 }
