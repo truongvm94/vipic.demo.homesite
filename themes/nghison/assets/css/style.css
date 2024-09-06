@@ -185,7 +185,7 @@ a{
    line-height: 25px;
  }
 .main-menu ul.menu .mega-menu-container li a{
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Times New Roman';
     text-transform: capitalize;
     color: #7e0328;
  }
@@ -788,6 +788,7 @@ a{
 .article-content{
     background: #fff;
     padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .article-content h1{
     text-transform: uppercase;
@@ -1664,3 +1665,26 @@ div.pagination ul li span{
     border: 1px solid #e386e5;
     border-radius: 10px;
 }
+.wrap-item {
+    display: flex;
+    margin-bottom: 7px;
+}
+
+.wrap-item > i {
+    vertical-align: middle;
+    display: flex;
+    justify-self: center;
+    margin-right: 10px;
+    color: #e386e5;
+    width: 13px;
+}
+.wrap-img > img {
+    width: 100%;
+}
+.wrap-item > p {
+    margin: 0;
+}
+.wrap-img {
+margin-bottom: 30px;
+}
+.wrap-content > h4 {margin-top: 0;text-align: center;font-size: 18px;}
