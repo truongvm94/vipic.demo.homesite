@@ -194,7 +194,7 @@ a{
        font-size: 12px;
     /* line-height: 25px; */
     /* color: #ffffff; */
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-family: 'Times New Roman';
     font-weight: bold;
 }
@@ -1687,4 +1687,24 @@ div.pagination ul li span{
 .wrap-img {
 margin-bottom: 30px;
 }
-.wrap-content > h4 {margin-top: 0;text-align: center;font-size: 18px;}
+.wrap-content > h4 {
+    margin-top: 0;
+    text-align: center;
+     font-size: 18px;
+     text-transform: uppercase;}
+.wrap-article-block > h2 {
+    text-align: center;
+    font-size: 2.5em;
+    position: relative;
+  
+}
+
+
+/* .wrap-article-block > h2:before {
+    width: 200px;
+    height: 10px; 
+    content: ""; 
+    background: red;
+    border: 1px solid;
+    position: absolute;
+} */
