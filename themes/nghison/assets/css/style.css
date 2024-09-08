@@ -1656,18 +1656,21 @@ div.pagination ul li span{
     float: left;
     max-width: 33.33%;
     flex-basis: 33.33%;
-    padding: 0 15px;
-    width: 100%; 
+    padding: 0 5px;
+    width: 100%;
 }
 .row {
-    margin-right: -15px;   
-    margin-left: -15px;   
+    margin-right: -15px;
+    margin-left: -15px;
     display: flex;
+    margin-bottom: 10px;
 }
 .wrap-content{
     padding: 15px;
     border: 1px solid #e386e5;
     border-radius: 10px;
+    height: 247px;
+    width: 325px;
 }
 .wrap-item {
     display: flex;
