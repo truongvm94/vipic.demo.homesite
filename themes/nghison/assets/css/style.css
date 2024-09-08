@@ -158,6 +158,8 @@ a{
 }
 .main-menu ul .mega-menu-container > ul {
     display: block;
+    float: left;
+    position: relative;
 }
 .main-menu ul ul,.main-menu ul .mega-menu-container{
     display: none;
@@ -182,12 +184,17 @@ a{
     padding-left: 5px;
 }
 .main-menu ul.menu .mega-menu-container >ul> li{
-   line-height: 25px;
+    line-height: 25px;
+    display: block;
+    width: 180px;
+    
  }
 .main-menu ul.menu .mega-menu-container li a{
     font-family: 'Times New Roman';
     text-transform: capitalize;
     color: #7e0328;
+    display: inline-block;
+    width: 100%;
  }
 .main-menu ul.menu > li a{
    color: #7e0328;
@@ -1721,3 +1728,14 @@ margin-bottom: 30px;
     border: 1px solid;
     position: absolute;
 } */
+
+.main-menu ul.menu .mega-menu-container li:hover > ul{
+    display: block;
+}
+
+.main-menu ul.menu .mega-menu-container li:hover > ul {
+    display: block;
+    right: -25px;
+    top: 0;
+    position: absolute;
+}
