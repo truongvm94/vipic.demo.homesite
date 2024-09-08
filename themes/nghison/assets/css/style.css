@@ -1706,7 +1706,13 @@ margin-bottom: 30px;
   
 }
 
-
+.wrap-content > img {
+    max-width: 307px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
 /* .wrap-article-block > h2:before {
     width: 200px;
     height: 10px; 
