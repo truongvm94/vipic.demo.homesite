@@ -922,6 +922,10 @@ a{
     border-bottom: none;
 }
 
+#v-nav >div.tab-content img {
+    margin-bottom: 10px;
+}
+
 #v-nav >div.tab-content
 {
     margin-left: 210px;
