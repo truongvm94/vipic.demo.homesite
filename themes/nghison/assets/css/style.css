@@ -160,6 +160,7 @@ a{
     display: block;
     float: left;
     position: relative;
+    height: 250px;
 }
 .main-menu ul ul,.main-menu ul .mega-menu-container{
     display: none;
@@ -1735,7 +1736,8 @@ margin-bottom: 30px;
 
 .main-menu ul.menu .mega-menu-container li:hover > ul {
     display: block;
-    right: -25px;
+    left: 180px;
     top: 0;
     position: absolute;
+    width: 100%;
 }
