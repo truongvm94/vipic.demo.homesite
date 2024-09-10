@@ -1742,14 +1742,17 @@ margin-bottom: 30px;
 }
 
 .c-container {
-    padding: 0 15px;
+    max-width: 1570px;
+    margin: 0 auto;
 }
 .section-content-desc > h2 {
     margin-top: 0;
 }
 
 .about-section > h3 {
-    margin-bottom: 50px;
+    margin: 50px;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 .col-md-6.section-content-img img {
@@ -1775,4 +1778,21 @@ margin-bottom: 30px;
 }
 .about-section {
     margin-bottom: 30px;
+}
+
+.title-url > ul {
+    display: flex;
+    justify-content: center;
+}
+
+.title-url > ul > li {
+    padding: 0 5px;
+}
+
+.title-url > ul > li > a {
+    color: #fff;
+    background: #cd207a;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
 }
