@@ -21,6 +21,18 @@ $(document).ready(function() {
 	    items: 4,
 	    dots: false
 	});
+	var owlAbout = $('.slideshow-about');
+	owlAbout.owlCarousel({
+		margin: 0,
+		nav: false,
+		loop: true,
+		autoHeight:true,
+		autoplay:true,
+	    autoplayTimeout:3000,
+	    items: 1,
+		dots: true,
+		ddotsEach: true
+	});
 	$('.play').on('click',function(){
 	    owl.trigger('play.owl.autoplay',[3000])
 	})
