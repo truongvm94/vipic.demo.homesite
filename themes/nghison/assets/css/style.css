@@ -1780,7 +1780,7 @@ margin-bottom: 30px;
     margin-bottom: -20px;
 }
 .about-section-title span {
-    background: #e386e5;
+    background: #cd207a;
     color: #fff;
     padding: 5px 35px;
     border-radius: 99px;
@@ -1890,7 +1890,7 @@ margin-bottom: 30px;
   }
 
   .section-content-desc {
-    max-height: 350px;
+    max-height: 500px;
     overflow-y: auto;
   }
 .section-content-desc::-webkit-scrollbar {
