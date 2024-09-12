@@ -118,6 +118,7 @@ a{
     width: 100%;
     z-index: 10;
     background: #f8f8f8;
+    white-space: nowrap;
 }
 .element-to-animate, .element-to-animate-2, .element-to-animate-3 {
     opacity: 0;
