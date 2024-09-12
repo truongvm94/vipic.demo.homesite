@@ -272,9 +272,11 @@ a{
 .readmore{
     border: 1px solid #cd207a;
     display: inline-block;
-    padding: 6px 25px;
-    border-radius: 26px;
+    padding: 10px;
+    border-radius: 5px;
     color: #813a21;
+    text-decoration: none;
+    cursor: pointer;
 }
 .home-content-detail{
     padding-bottom: 30px;
@@ -294,7 +296,6 @@ a{
     height: auto;
 }
 .home-content-2{
-    background: transparent url('images/bg-1.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
     padding: 30px 0;
@@ -1933,4 +1934,23 @@ margin-bottom: 30px;
 }
 .list-home-content.list-home-content-lvhd > .list-home-content-item h3:hover {
     opacity: .7;
+}
+
+.section-content-slide-title.text-left >h4 {
+    color: #cd207a;
+}
+
+.section-content-slide-title.text-left > span {
+    color: #000;
+}
+
+.section-content-slide-title.text-left  > a {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: block;
+    max-width: 100px;
+    text-decoration: none;
+    color: #cd207a;
 }

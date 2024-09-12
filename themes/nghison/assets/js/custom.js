@@ -33,6 +33,18 @@ $(document).ready(function() {
 		dots: true,
 		ddotsEach: true
 	});
+	var owlAbout = $('.slideshow-danb');
+	owlAbout.owlCarousel({
+		margin: 0,
+		nav: false,
+		loop: true,
+		autoHeight:true,
+		autoplay:false,
+	    autoplayTimeout:3000,
+	    items: 1,
+		dots: true,
+		ddotsEach: true
+	});
 	$('.play').on('click',function(){
 	    owl.trigger('play.owl.autoplay',[3000])
 	})
