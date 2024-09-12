@@ -13,12 +13,12 @@ $(document).ready(function() {
 	var owlPost = $('.slideshow-post');
 	owlPost.owlCarousel({
 		margin: 0,
-		nav: true,
+		nav: false,
 		loop: true,
 		autoHeight:true,
-		autoplay:true,
+		autoplay:false,
 	    autoplayTimeout:3000,
-	    items: 4,
+	    items: 5,
 	    dots: false
 	});
 	var owlAbout = $('.slideshow-about');
