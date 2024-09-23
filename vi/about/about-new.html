@@ -110,7 +110,7 @@
                         <a href="./about-new.html">
                             GIỚI THIỆU CÔNG TY
                         </a>
-                        <div class="mega-menu-container">
+                        <div class="mega-menu-container mega-menu-container-gtc">
                             <ul>
                                 <li>
                                     <a href="#tab-1" target="_self">
@@ -142,40 +142,34 @@
                         <div class="mega-menu-container">
                             <ul>
                                 <li>
-                                    <a href="vi/kcn-so-3-nghi-son/kcn-so-3-nghi-son.html" target="_self"> Dự Án Công
+                                    <a href="../../vi/kcn-so-3-nghi-son/kcn-so-3-nghi-son.html" target="_self"> Dự Án
+                                        Công
                                         Nghiệp<i class="fa fa-arrow-right" style="
                         margin-left: 5px;
                     "></i></a>
                                     <ul class="sub-menu-2">
                                         <li>
-                                            <a href="./vi/kcn-so-3/kcnso-3.html">KCN Số 3 - KKT Nghi Sơn - Thanh Hoá</a>
+                                            <a href="../../vi/kcn-so-3/kcnso-3.html">KCN Số 3 - KKT Nghi Sơn - Thanh
+                                                Hoá</a>
                                         </li>
                                         <li>
-                                            <a href="./vi/kcn-so-3-nghi-son/kcn-so-3-nghi-son.html">KCN HD - Bà Rịa Vũng
+                                            <a href="../../vi/kcn-so-3-nghi-son/kcn-so-3-nghi-son.html">KCN HD - Bà Rịa
+                                                Vũng
                                                 Tàu</a>
                                         </li>
                                         <li>
-                                            <a href="./vi/CumCN-Lethiendaiban/lethiendaiban.html">CCN Lê Thiện Đại Bản -
+                                            <a href="../../vi/CumCN-Lethiendaiban/lethiendaiban.html">CCN Lê Thiện Đại
+                                                Bản -
                                                 Hải Phòng</a>
                                         </li>
-                                        <!--
-                        <li>                
-                          <a href="./vi/kcn-tienyen-NEW/kcntienyen.html">KCN Tiên Yên - Quảng Ninh</a>
-                        </li>                   
-                        <li>
-                          <a href="./vi/KCN-thanhha-hoabinh/kcn-thanhha-hoabinh.html">KCN Thanh Hà - Hoà Bình</a>
-                        </li>
-                        <li>
-                          <a href="./vi/CCN-QuangHung/CCN-QuangHung.html">CCN Quang Hưng - An Lão - Hải Phòng</a>
-                        </li> -->
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="vi/kcn-tien-yen/kcn-tien-yen.html" target="_self"> Dự Án Đô Thị<i
+                                    <a href="../../vi/kcn-tien-yen/kcn-tien-yen.html" target="_self"> Dự Án Đô Thị<i
                                             class="fa fa-arrow-right" style="margin-left: 5px;"></i></a>
                                     <ul class="sub-menu-2">
                                         <li>
-                                            <a href="./vi/duandothiMyGia/duandothiMygia.html">KĐT Mỹ Gia - TP Nha Trang
+                                            <a href="../../vi/duandothiMyGia/duandothiMygia.html">KĐT Mỹ Gia - TP Nha Trang
                                                 - Khánh Hoà</a>
                                         </li>
                                         <li>
@@ -191,7 +185,7 @@
                                 </li>
 
                                 <li>
-                                    <a href="vi/khu-cong-nghiep/logistic.html" target="_self">Logictics<i
+                                    <a href="../../vi/khu-cong-nghiep/logistic.html" target="_self">Logictics<i
                                             class="fa fa-arrow-right" style="margin-left: 5px;"></i></a>
                                     <ul class="sub-menu-2">
                                         <!--<li>
@@ -208,7 +202,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="vi/khu-cong-nghiep/kinh-doanh-dien.html" target="_self"> Kinh doanh mua bán
+                                <li><a href="../../vi/khu-cong-nghiep/kinh-doanh-dien.html" target="_self"> Kinh doanh mua bán
                                         điện<i class="fa fa-arrow-right" style="margin-left: 5px;"></i></a>
                                     <ul class="sub-menu-2">
                                         <li>
@@ -225,7 +219,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="vi/khu-cong-nghiep/kinh-doanh-khac.html" target="_self"> Kinh doanh
+                                <li><a href="../../vi/khu-cong-nghiep/kinh-doanh-khac.html" target="_self"> Kinh doanh
                                         khác</a></li>
                             </ul>
                         </div>
@@ -1058,7 +1052,7 @@
 
                 // Xử lý sự kiện click vào menu chính
                 setupMenuLinks: function () {
-                    $('.mega-menu-container a').on('click', function (event) {
+                    $('.mega-menu-container.mega-menu-container-gtc a').on('click', function (event) {
                         event.preventDefault(); // Ngăn hành động mặc định của liên kết
                         var targetTab = $(this).attr('href');
                         TabManager.activateTab(targetTab);
