@@ -300,6 +300,7 @@ a{
     padding-top: 20px;
     font-size: 15px;
     line-height: 180%;
+    text-align: center;
 }
 .home-content-more-detail{
     height: 0;
@@ -526,6 +527,7 @@ a{
     font-size: 25px;
     color: #cd207a;
     font-weight: bold;
+    text-align: center;
 }
 .home-content-7-form{
     width: 100%;
